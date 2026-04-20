@@ -1,1 +1,3 @@
-print('hellow')
+print("Hello, World!")
+print("I am learning AI!!")
+print("")
