@@ -63,7 +63,7 @@ if num%7 == 0:
     print(f"{num} is divisible by 7")
 else:    
     print(f"{num} is not divisible by 7")"""
-
+"""
 a = int(input("enter a 1 number: "))
 b = int(input("enter a 2 number: "))
 c = int(input("enter a 3 number: "))
@@ -76,4 +76,5 @@ elif (c>d):
     print(f"{c} is the greatest number")
 else:
     print(f"{d} is the greatest number")
-    
+    """
+
