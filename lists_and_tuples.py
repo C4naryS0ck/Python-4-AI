@@ -54,9 +54,9 @@ if list == elements:
 else:
     print('not palindrome')""" 
 
-tup = ("C","D","A","A","B","B","A")
+'''tup = ("C","D","A","A","B","B","A")
 print(tup.count("A")) 
 
 list = list(tup)
 list.sort()
-print(list)
+print(list)'''
