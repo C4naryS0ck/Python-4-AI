@@ -106,11 +106,11 @@ print("sum is:",a+b)
 #ques: wap to input side of a square & print its area.
 s = int(input("enter the side of square:"))
 print("area of sqauare is:",s*s)'''
-
+'''
 #ques: wap to input 2 floating point numbers and print their average.
 f1 = float(input("enter 1st number: "))
 f2 = float(input("enter 2nd number: "))
-print("average is:",(f1+f2)/2)
+print("average is:",(f1+f2)/2)'''
 
 #ques: wap to input 2 int numbers, a and b. Print true if a is greater
 #than or equal to b. If not print False.
