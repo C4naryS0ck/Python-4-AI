@@ -45,7 +45,7 @@ print(student.get('name2')) #returns None because the key 'name2' does not exist
 student.update({'city': 'alahabad'}) #adds the key-value pair to the dictionary.
 print(student) """ 
 
-#SETS
+'''#SETS
 abc = {1,2,3,4,5,5,5,5}
 #print(abc) #sets do not allow duplicate values.
 #print(type(abc)) 
@@ -73,4 +73,31 @@ cde = {3,7,8,9}
 union = ab.union(cde) #returns a new set that contains all the unique elements from both sets.
 print(union) 
 inter = ab.intersection(cde) #returns a new set that contains only the elements that are present in both sets.
-print(inter)
+print(inter) 
+'''
+'''
+#ques: 
+dick1 = {
+    'table' : ["a piece of furniture" , "list of facts & figures"],
+    'cat' : "a small animal"
+} 
+print(dick1)
+
+classrooms = {'python','python','python','java','c++','c','javascript','java','java','c++'}
+print(len(classrooms)) #returns the number of unique elements in the set.
+
+# WAP to enter marks of 3 subjects and store them in a dictionary. 
+# Start with an empty dictionary and add one by one. Use subject name as 
+# key & marks as value. 
+marks = {}
+x = int(input('enter physics:')) 
+marks.update({'physics':x}) 
+y = int(input('enter chemistry:'))
+marks.update({'chemistry':y})
+z = int(input('enter maths:'))
+marks.update({'maths':z}) 
+print(marks)  
+'''
+
+huhh = { ('float', 9.0),('int',9) }
+print(huhh) 
