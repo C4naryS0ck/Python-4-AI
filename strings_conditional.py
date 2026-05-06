@@ -34,7 +34,7 @@ if(age >= 18):
     print("can drive")
 else:
     print('cannot!') 
-"""
+
 light = 'red'
 if (light =='red'):
     print("stop")
@@ -44,3 +44,36 @@ else:
     print("go")
 
 print("end of code") 
+"""
+"""num1 = int(input("enter first number: "))
+num2 = int(input("enter second number: "))
+num3 = int(input("enter third number: "))
+
+if (num1 >num2) and (num1 >num3):
+    print(f"{num1} is the greatest number")
+if (num2 > num1) and (num2 > num3):
+    print(f"{num2} is the greatest number")
+if (num3 > num1) and (num3 > num2):
+    print(f"{num3} is the greatest number")
+else:
+    print("all numbers are equal")
+
+num = int(input("enter a number: "))
+if num%7 == 0:
+    print(f"{num} is divisible by 7")
+else:    
+    print(f"{num} is not divisible by 7")"""
+
+a = int(input("enter a 1 number: "))
+b = int(input("enter a 2 number: "))
+c = int(input("enter a 3 number: "))
+d = int(input("enter a 4 number: ")) 
+if (a>b) & (a>c) & (a>d):
+    print(f"{a} is the greatest number")
+elif (b>c) & (b>d):
+    print(f"{b} is the greatest number")
+elif (c>d):
+    print(f"{c} is the greatest number")
+else:
+    print(f"{d} is the greatest number")
+    
