@@ -40,10 +40,11 @@ while i<= 10:
     print(i*i)
     i += 1 
 """
-
+"""
+#Search for a number x in this tuple using loop:
 tup = (1,4,9,16,25,36,49,64,81,100 )
 num = int(input("enter a number : ")) 
-left = tup[0]
+left = 0
 right = len(tup) - 1 
 found = False
 while left<=right:
@@ -51,10 +52,11 @@ while left<=right:
     if tup[mid] == num:
         print("number found at index:",mid) 
         found = True
-    elif num<tup[mid]:
+
+    if num<tup[mid]:
         right = mid - 1
     else:
         left = mid + 1 
-    break
 if not found: 
     print('Number not found.') 
+"""
