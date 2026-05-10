@@ -49,8 +49,8 @@ def conversion(usd):
     print(usd*94) 
 conversion(1)"""
 
-# ques: num ko input, function - if odd print string odd, if even print string even. 
+"""# ques: num ko input, function - if odd print string odd, if even print string even. 
 def even_odd(a): 
     labels = ["Even","Odd"]
     print(labels[a % 2])
-even_odd(5)
+even_odd(5)""" 
