@@ -44,3 +44,8 @@ def el(l,idx = 0):
 
 list = [5,6,7,8] 
 el(list)
+
+
+
+
+
