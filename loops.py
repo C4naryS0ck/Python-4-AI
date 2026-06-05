@@ -88,15 +88,16 @@ for val in veggies:
 tup = (1,2,3,4)
 for num in tup:
     print(num)"""
-
-"""str = 'abhishree'
+"""
+str = 'abhishree'
 for ch in str:
     print(ch)
 else:
     print('end')
 
 """
-"""list = [ 1,4,9,25,36,49,64,81,100]
+"""
+list = [ 1,4,9,25,36,49,64,81,100]
 for el in list:
     print(el)
 
@@ -113,8 +114,7 @@ for i in tup:
     if (num == i):
         print("found at index:",idx ) 
     idx +=1 
-    """
-
+"""
 """
 # printing the multiplication of a number.
 n = int(input("enter a number: "))
@@ -124,7 +124,6 @@ for i in range(1,11):
 for i in range(5):
     pass 
 print("understanding the use of function pass!") """
-
 """
 # ques: WAP to find the sum of first n numbers. using while.
 num = int(input("enter the numbers upto which you want the sum.: "))
@@ -139,7 +138,6 @@ for i in range(1,num+1):
     sum = sum +i
 print("sum of first n numbers is:",sum) 
 """
-
 """
 # WAP to find the factorial of first n numbers. using for
 n = int(input('enter the number to find the factorial of: '))
