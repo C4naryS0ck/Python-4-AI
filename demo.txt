@@ -1,3 +1,2 @@
-This is a demo file for learning the functioning of file input output
-in python.
-Let's gooooooo
+hello this is my file or you can say demo file
+this is learning to append at the end in the existing file.
