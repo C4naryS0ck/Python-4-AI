@@ -1,0 +1,3 @@
+This is a demo file for learning the functioning of file input output
+in python.
+Let's gooooooo
