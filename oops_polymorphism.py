@@ -86,12 +86,10 @@ class Engineer(Employee):
 engg1 = Engineer("Elon Musk",40)
 engg1.showDetails()
 """
-
+"""
 # QUES: create a class called Order which stores item and its price. 
 # Use dunder function __gt__() to convey that: order1 > order2 if 
 # price of order1 > price of order2
-
-
 class Order:
     def __init__(self, item, price):
         self.item = item 
@@ -102,3 +100,4 @@ class Order:
 o1 = Order("Chips",20)
 o2 = Order("tea",15)
 print(o1>o2)
+"""
